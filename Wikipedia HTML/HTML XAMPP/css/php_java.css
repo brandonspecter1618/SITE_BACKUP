@@ -1,0 +1,106 @@
+ 	     /* Corpo Do Site personalização */
+	
+	body { background-color: #000000; /* Utilizado para colorir o fundo da imagem*/
+		   margin:0px;
+		   padding:0px;
+	 }
+	 
+
+	 .ce1_h1 { color: #7FFFD4; /*utlizado para colorir algum texto ou palavra*/
+		 text-align: center; /*Utilizado para centralizar um texto. Comandos além desses são  right & left*/ 
+		 font-size: 80px;    /*Utilizado para aumentar a fonte do texto*/
+		 font-family: monospace;  /*Utilizado para trocar o estilo ou o modo como a palavra ou o texto é escrito*/
+		 font-weight: bold;
+		 position: relative;
+		 top: 10px;	
+		
+	}
+	
+	 .cr2_h2 { color: #7FFFD4;
+		 text-align: center;
+		 font-size: 25px;          /*Esta edição está vinculada ao <h2>*/
+		 font-family: monospace;
+		 font-weight: bold;
+		 position: relative;
+		 bottom: 20px;
+	}
+	
+	
+	
+	
+	/* MENU DO SITE */
+	
+	.menu {
+	 	list-style: none;
+		
+	}
+	
+	.menu li {
+		position:relative;
+		bottom:40px;
+		left: 55px;
+		border: 5px solid #ADFF2F;
+		float:left;
+		
+	}
+	
+	.menu li a{
+		color: #FF4000;
+		font-weight: bold;
+		font-family: monospace;
+		font-size: 18px;
+		padding: 25px 80px;
+		display:block;
+		text-decoration: none;
+	
+		
+	}
+	
+	.menu li a:hover {
+		background-color: #FF4000;
+		color: #013ADF ;
+	}
+	
+	
+	
+	
+	
+	.pagination {
+		display: inline-block;
+}
+
+		.pagination a {
+		color: white;
+		float: left;
+		padding: 8px 16px;
+		text-decoration: none;
+		position: relative;
+		left: 600px;
+		top:950px;
+		border: 5px solid #2E2E2E;
+}
+
+	.pagination a.active {
+		background-color: #4CAF50;
+		color: white;
+}
+
+	.pagination a:hover:not(.active) {background-color: #FF4000;}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

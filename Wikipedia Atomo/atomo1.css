@@ -1,0 +1,103 @@
+			.tag_body {background-color: #2F4F4F; }
+			
+			.tag_h1 { color: #B0E0E6;
+				 text-align: center;
+				 font-size: 40px;
+				 font-family: monospace; 
+				 font-weight: bold;
+			
+			}
+			
+			.tag_p { 
+			    font-size: 19px;
+			    text-align: left;
+				color: #B0E0E6;
+				font-family: ui-sans-serif;
+			    margin-left: 30px;
+				margin-right: 800px;
+				font-weight: bold;
+				
+				
+				
+			}
+			
+			/* Photo In Site Atom */
+			
+			.photocss { position: absolute;
+				 left: 680px;
+				 top: 360px;
+				
+				
+			}
+			
+				
+			/* TESTE DIV  */
+			
+			#atom_1 { 
+			background-color: #4B0082;	
+			height: 150px;
+			width: 1415px;
+		}
+		
+		/* Menu CSS */
+		
+		
+		.menu {
+			list-style: none;
+			background-color: #B0E0E6;
+			
+			
+			
+		}
+		
+		.menu li {
+			
+			position: relative;
+			float: left;
+			border: 5px solid #B0E0E6;
+			
+			
+			
+		}
+		
+		.menu li a {
+			
+			color: #B0E0E6;
+			font-weight: bold;
+			font-family: monospace;
+			font-size: 18px;
+			padding: 25px 100px;
+			text-decoration:none;
+			display:block;
+		}
+			
+		.menu li a:hover{
+			background-color: #00008B;
+			color: #FF0000;
+		}
+
+		.back_menu {
+			background-color: #B0E0E6;
+			
+		}
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			
+				 
+				
+				
+			

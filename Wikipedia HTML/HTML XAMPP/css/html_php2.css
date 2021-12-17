@@ -1,0 +1,121 @@
+ 	     /* Corpo Do Site personalização */
+	
+	body { background-color: #000000; /* Utilizado para colorir o fundo da imagem*/
+		   margin:0px;
+		   padding:0px;
+	 }
+	 
+
+	 .ce1_h1 { color: #7FFFD4; /*utlizado para colorir algum texto ou palavra*/
+		 text-align: center; /*Utilizado para centralizar um texto. Comandos além desses são  right & left*/ 
+		 font-size: 80px;    /*Utilizado para aumentar a fonte do texto*/
+		 font-family: monospace;  /*Utilizado para trocar o estilo ou o modo como a palavra ou o texto é escrito*/
+		 font-weight: bold;
+		 position: relative;
+		 top: 10px;	
+		
+	}
+	
+	 .cr2_h2 { color: #7FFFD4;
+		 text-align: center;
+		 font-size: 25px;          /*Esta edição está vinculada ao <h2>*/
+		 font-family: monospace;
+		 font-weight: bold;
+		 position: relative;
+		 bottom: 20px;
+	}
+	
+	.var1_p { color: #ADFF2F;
+		text-align: left;
+		font-size: 28px;          /*Esta edição vai para todos os parágrafo*/
+		font-family: 'Caveat', cursive;
+		font-weight:bold;
+		margin-left: 10px;
+		margin-right: 650px;
+		position: relative;
+		top:8px;
+		border: 10px solid #ADFF2F;
+		border-radius: 100px;
+		padding-top: 30px;
+		padding-bottom: 0px;
+		padding-right: 0px;
+		padding-left: 20px;
+		
+	}
+	
+	.cd3_p { color: #800000;
+			 text-align: right;
+			 font-size: 18px;        /* Caso seja necessário grifar um páragrafo a parte */
+			 font-family: cursive;
+			 font-weight:italic;
+			 text-decoration: underline;
+		}
+		
+		
+		
+/* MENU DO SITE */
+	
+	.menu {
+	 	list-style: none;
+		margin: 0;
+		padding: 0;
+		
+	}
+	
+	.menu li {
+		float: left;
+		position:relative;
+		top:300px;
+		left: 220px;
+		border: 1px solid #ADFF2F;
+		padding: 30px 50px;
+	}
+	
+	.menu li a{
+		color: #FF4000;
+		font-weight: bold;
+		font-family: monospace;
+		font-size: 18px;
+		display:block;
+		text-decoration: none;
+	
+		
+	}
+	
+	.menu li a:hover {
+		background-color: #FF4000;
+		color: #013ADF ;
+	}
+
+
+		/*Submenu Do Site*/
+
+	.clearfix::after {
+		contain: '.';
+		display: block;
+		clear: both;
+		height: 0;
+		line-break: 0;
+		font-size: 0;
+		visibility: hidden;
+		overflow: hidden;
+		
+}
+
+
+	.menu > li:hover > .submenu {
+		display: block;
+	
+}
+
+	.submenu {
+		display: none;
+		position: absolute;
+		top: 121px;
+		right: 155px;
+		list-style: none;
+		width: 500px;
+		margin: 0;
+		padding: 0;
+			
+}

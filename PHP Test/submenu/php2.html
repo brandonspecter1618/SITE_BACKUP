@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>PHP Test</title>
+        <meta charset="utf-8">            <!-- Utilizado para utilizar a codifica��o utf-8 a fim de utilizar caracter especial-->  
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet"> 
+        <link href="../css/submenu/php2.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+ 
+                        <!-- DIV for Menu -->
+
+<div class="var1_div_menu"></div>
+
+
+                        <!--Menu With Submenu for Site-->
+
+<div class="var5_menu_position">
+<nav role="navigation" class="primary-navigation">
+    <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="#">Product</a>
+        <ul>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Illustration</a></li>
+            <li><a href="#">Iconography</a></li>
+        </ul>
+    </li>
+    <li><a href="../phpjava.html">PHP/JAVA</a>
+        <ul>
+            <li><a href="php1.html">PHP1</a></li>
+            <li><a href="php2.html">PHP2</a></li>
+            <li><a href="#">PHP3</a></li>
+            <li><a href="#">PHP4</a></li>
+        </ul>
+    </li>
+    <li><a href="../contact.html" target="_blank">Contact</a></li>
+    </ul>
+</nav>
+</div>
+
+
+<h3 class="var2_p">What can Javascript Do</h3>
+
+<p class="var2_p" id="var1">Hello Man !!! Click down for Calculate</p>
+
+
+                            <!--CALCULATE -->
+
+                            <!--Buttom For +-->
+
+<div class="divall">
+
+<div class="divbuttonmore">   
+<button class="var_1button" type="button" onclick="jspass1()">Somar</button>
+</div>
+
+
+                            <!--Input For +-->
+<div>   
+<input  type="text" id="x_input" class="input1" placeholder="Enter with first number"><br>
+<input  type="text" id="y_input" class="input1" placeholder="Enter with Second number">
+</div>
+
+                         <!--Result Of Calculate-->
+
+<div class="divresult">
+<p class="var3_p" id="result"></p>
+</div>
+
+<script>
+
+    function jspass1() {
+
+        var x, y, z;
+
+        x = document.getElementById("x_input").value;
+        x_f = parseInt(x);
+
+        y = document.getElementById("y_input").value;
+        y_f = parseInt(y);
+
+        z = x_f + y_f;
+
+        document.getElementById("result").style.display = "block";
+        document.getElementById("result").innerHTML = "The Result is " + z;
+
+    }
+
+</script>
+
+
+</div>
+
+
+
+
+
+
+                            <!--Buttom For - -->
+
+
+<div class="dival2">
+
+<div class="divbuttonmore2">   
+<button class="var_1button" type="button" onclick="jspass2()">Subtracion</button>
+</div>
+
+
+                            <!--Input For +-->
+<div>   
+<input  type="text" id="a_input" class="input2" placeholder="Enter with first number"><br>
+<input  type="text" id="b_input" class="input2" placeholder="Enter with Second number">
+</div>
+
+                         <!--Result Of Calculate-->
+
+<div class="divresult2">
+<p class="var3_p" id="result2"></p>
+</div>
+
+<script>
+
+    function jspass2() {
+
+        var a, b, z;
+
+        a = document.getElementById("a_input").value;
+        a_f = parseInt(a);
+
+        b = document.getElementById("b_input").value;
+        b_f = parseInt(b);
+
+        z = a_f - b_f;
+
+        document.getElementById("result2").style.display = "block";
+        document.getElementById("result2").innerHTML = "The Result is " + z;
+
+    }
+
+</script>
+
+
+</div>
+
+
+
+
+
+
+                                <!--Buttom For * -->
+
+
+   <div class="dival3">
+
+    <div class="divbuttonmore2">   
+    <button class="var_1button" type="button" onclick="jspass3()">Multiplication</button>
+    </div>
+    
+    
+                                <!--Input For * -->
+    <div>   
+    <input  type="text" id="c_input" class="input3" placeholder="Enter with first number"><br>
+    <input  type="text" id="d_input" class="input3" placeholder="Enter with Second number">
+    </div>
+    
+                             <!--Result Of Calculate-->
+    
+    <div class="divresult3">
+    <p class="var3_p" id="result3"></p>
+    </div>
+    
+    <script>
+    
+        function jspass3() {
+    
+            var c, d, z;
+    
+            c = document.getElementById("c_input").value;
+            c_f = parseInt(c);
+    
+            d = document.getElementById("d_input").value;
+            d_f = parseInt(d);
+    
+            z = c_f * d_f;
+    
+            document.getElementById("result3").style.display = "block";
+            document.getElementById("result3").innerHTML = "The Result is " + z;
+    
+        }
+    
+    </script>
+    
+    
+    </div>
+
+
+
+
+
+
+                                    <!--Buttom For / -->
+
+
+   <div class="dival4">
+
+    <div class="divbuttonmore2">   
+    <button class="var_1button" type="button" onclick="jspass4()">Division</button>
+    </div>
+    
+    
+                                <!--Input For / -->
+    <div>   
+    <input  type="text" id="e_input" class="input4" placeholder="Enter with first number"><br>
+    <input  type="text" id="f_input" class="input4" placeholder="Enter with Second number">
+    </div>
+    
+                             <!--Result Of Calculate-->
+    
+    <div class="divresult4">
+    <p class="var3_p" id="result4"></p>
+    </div>
+    
+    <script>
+    
+        function jspass4() {
+    
+            var e, f, z;
+    
+            e = document.getElementById("e_input").value;
+            e_f = parseInt(e);
+    
+            f = document.getElementById("f_input").value;
+            f_f = parseInt(f);
+    
+            z = e_f * f_f;
+    
+            document.getElementById("result4").style.display = "block";
+            document.getElementById("result4").innerHTML = "The Result is " + z;
+    
+        }
+    
+    </script>
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,119 @@
+body {
+    background-image: url("../photo/pexels-photo-326311.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 300%;
+    margin: 0;
+    padding: 0;
+}
+
+
+                    /*Posts*/
+
+.var1img {
+
+border-width: 5px;
+border-style: solid;
+border-radius: 100px;
+float: left;
+
+
+}
+
+.var2p {
+color: black;
+font-size: 19px;
+font-weight: bolder;
+font-family: 'Indie Flower', cursive;
+
+}
+
+.var3div {
+    position: relative;
+    left: 40px;
+    background-color: rgba(243, 182, 92, 0.842);
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 100px;
+    box-sizing: border-box;
+    width: 800px;
+    height: 350px;
+    -webkit-transition:all 0.5s linear;     /*webkit é utilzado em navegadores chrome e safari na frente o nome -webkit-transition or -webkit-box-shadown*/
+    -moz-transition:all 0.5s linear;        /*moz para mozilla exemplo -moz-transition -moz-box-shadow */
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;     /*O tempo que demora para chegar a uma escala determinada no caso Scale(1,05)*/
+}
+
+.var3div:hover{
+    transform: scale(1.05);     /*A escala que ele cresce quando passa o mouse em cima*/
+
+}
+
+.var4h1 {
+    position: relative;
+    left: 150px;
+    color: rgba(243, 182, 92, 0.842);
+    font-family: 'Playfair Display', serif;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+
+ 
+
+                        /*Menu Lateral*/
+
+.var5div {
+    position: relative;
+    left: 900px;
+    bottom: 570px;
+    background-color: rgba(243, 182, 92, 0.842);
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 100px;
+    padding-top: 30px;
+    height:300px;
+    width: 400px; 
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;
+
+}
+
+.var5div:hover{
+     transform: scale(1.05);
+    
+}
+
+
+.var5ph {
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    color: black;
+    font-size: 19px;
+    font-weight: bolder;
+    font-family: cursive;   
+}
+
+.var5pmenu{
+    content: "Read This - ";
+
+}
+
+.var5pmenu{
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: cursive; 
+
+    
+}
+
+
+

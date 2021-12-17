@@ -1,0 +1,298 @@
+		/* Corpo Do Site personalização */
+		
+		body {
+			background-color: #000000;
+			
+		}
+		
+		
+		.ce1_h1 {
+			color: #7FFFD4;
+			text-align: center;
+			font-size: 80px;
+			font-family: monospace;
+			font-weight: bold;
+			position: relative;
+			top: 80px;
+			left: 560px;
+			width: 300px;
+			height: 150px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+		
+		.cr2_h2 {
+			color: #7FFFD4;
+			text-align: center;
+			font-family: monospace;
+			font-weight: bold;
+			position: relative;
+			left: 460px;
+			top: 80px;
+			width: 500px;
+			
+		}
+		
+							/* Imagem Do Site */
+		
+		
+		.logo { position: absolute;
+	        left: 750px;                /*Utilizado para fazer o controle de onde a foto será como colocada na tela */
+		    top: 468px;
+			
+		
+		
+	}
+			
+			/* Coloca borda redonda na página */
+		
+			img {
+			
+			border-radius: 100px;
+		}
+		
+									/* menu Do Site */
+		
+		.menu {
+			list-style: none;
+			margin:0;
+			padding: 0;
+			
+		}
+		
+		.menu li {
+			float: left;
+			position: relative;
+			bottom: 50px;
+			left: 220px;
+			border: 1px solid #ADFF2F;
+			padding: 30px 50px;
+			
+		}
+		
+		.menu li a {
+			color: #FF4000;
+			font-weight: bold;
+			font-family: monospace;
+			font-size: 18px;
+			display:block;
+			text-decoration: none;
+			
+		} 
+		
+		.menu li a:hover {
+			background-color: #FF4000;
+			color: #013ADF ;
+			
+		}
+		/*Submenu*/
+
+		.clearfix::after {
+			contain: '.';
+			display: block;
+			clear: both;
+			height: 0;
+			line-break: 0;
+			font-size: 0;
+			visibility: hidden;
+			overflow: hidden;
+		
+}
+
+		.menu > li:hover > .submenu {
+			display: block;
+	
+}
+
+		.submenu {
+			display: none;
+			position: absolute;
+			top: 130px;
+			right: 155px;
+			width: 500px;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			
+			
+}
+		
+	
+	
+	.form_sign {
+		color: #ADFF2F;
+		font-size: 50px;          /*Esta edição vai para todos os parágrafo*/
+		font-family: cursive;
+		font-weight: bold;
+		position: relative;
+		left: 300px;
+		top: 170px;
+		border: 5px solid black;
+		width: 200px;
+	
+		
+	}
+	
+	
+	.form_t {
+		color: #ADFF2F;
+		font-size: 18px;          /*Esta edição vai para todos os parágrafo*/
+		font-family: cursive;
+		font-weight:bold;
+		position: relative;
+		left: 100px;
+		bottom: 0px;
+		border: 5px solid #FF4000;
+		border-radius: 100px;
+		width: 500px;
+		padding: 150px 50px 50px 50px;
+	}
+	
+	
+	
+	
+					/* Edição Do Imput do formulário */
+	
+	
+		
+		input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  box-sizing: border-box;
+  
+}
+
+		input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  box-sizing: border-box;
+  
+  
+}
+
+		input[type=date], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  box-sizing: border-box;
+  
+  
+}
+
+		input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  box-sizing: border-box;
+  
+  
+}
+	input[type=submit] {
+  width: 500px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size:15px;
+}
+
+	input[type=submit]:hover {
+  background-color: #45a049;
+  
+}
+	
+		
+			          /* Pagination Numbers Down Display CSS  */
+						  
+							 
+		.pagination {
+  display: inline-block;
+}
+
+		.pagination a {
+  color: white;
+  float: left;
+  padding: 5px 16px;
+  text-decoration: none;
+  position: relative;
+  left: 540px;
+  top:0px;
+  border: 5px solid #2E2E2E;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #FF4000;}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

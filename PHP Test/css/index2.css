@@ -1,0 +1,186 @@
+
+body {
+
+	background-image: url("../photo/pexels-daniel-absi-952670.jpg");
+	background-repeat: no-repeat;
+	background-color: #333;
+	background-size: 100% 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.var1_1_h1 {
+    position: relative;
+    left: 630px;
+    bottom: 100px;
+    color: #ffffff;
+    font-size:60px;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 160px;
+}
+
+.var1_1_h2 {
+    position: relative;
+    left: 490px;
+    bottom: 100px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size:25px; 
+    box-sizing: border-box;
+    width: 500px;
+}
+
+.var2_p {
+	  position: relative;
+    bottom: 90px;
+    left: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Fira Sans','Source Sans Pro', sans-serif;
+    margin-left: 350px;
+    margin-right: 350px;
+    box-sizing: border-box;
+      
+}
+
+                      
+
+/* Audio CSS	*/
+	
+.audio_mv {
+  position: absolute;
+  left: 1100px;
+  bottom: 666px;
+  
+}
+
+audio
+{
+-webkit-transition:all 0.5s linear;     /*webkit é utilzado em navegadores chrome e safari na frente o nome -webkit-transition or -webkit-box-shadown*/
+-moz-transition:all 0.5s linear;        /*moz para mozilla exemplo -moz-transition -moz-box-shadow */
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 35px 23px #4C4E7F;   /*25px Esfuma e o 20px aumenta as bordas*/
+-webkit-box-shadow:  2px 2px 35px 23px #4C4E7F;  /*25px Esfuma e o 20px aumenta as bordas*/
+box-shadow: 2px 2px 35px 23px #4C4E7F;   /*25px Esfuma e o 20px aumenta as bordas*/
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow:  2px 2px 35px 23px #ffffff;
+-moz-box-shadow: 2px 2px 35px 23px #ffffff;
+box-shadow: 2px 2px 35px 3px #ffffff;
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+                      /*Image PHP Site*/
+
+.var4_img {
+  position: relative;
+  left: 350px;
+  bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+	box-shadow: 2px 2px 2px 20px #4C4E7F;
+	-moz-box-shadow: 2px 2px 2px 20px #4C4E7F;
+	-webkit-box-shadow: 2px 2px 30px 10px #4C4E7F;
+
+}
+
+
+                        /*Menu Site*/
+
+.var1_div_menu {
+    position: relative;
+    right: 10px;
+    border-radius: 100px;
+    background-color: #4C4E7F;
+    box-sizing: border-box;
+    height: 80px;
+    width: 1425px;
+    
+}
+
+.var5_menu_position {
+	position: relative;
+    bottom: 190px;
+	left: 300px;
+    height: 200px;
+	width: 800px;
+	box-sizing: border-box;   
+}
+
+nav.primary-navigation {
+	margin: 0 auto;
+	display: block;
+	padding: 120px 0 0 0;
+	text-align: center;
+	font-size: 16px;
+}
+nav.primary-navigation ul li {
+	list-style: none;
+	margin: 0 auto;
+	border-left: 3px solid #3ca0e7;   /*Cor das barras do menu*/
+	display: inline-block;
+	padding: 0px 50px;           /*0 aumenta as barras do menu e o 30px aumenta o espaçamento entre as palvras do menu*/
+	position: relative;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Big Shoulders Stencil Display', cursive;   /*Fonte Do Google*/
+}
+nav.primary-navigation li a {
+	color: #ffffff;           /*Cor das palavras*/
+}
+nav.primary-navigation li a:hover {
+	color: #3ca0e7;        /*Cor de Hover*/
+}
+nav.primary-navigation li:hover {
+	cursor: pointer;
+}
+nav.primary-navigation ul li ul {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	padding-left: 0;       /*Aumenta o quadro depois que passa o mouse no menu*/
+	left: 0;
+	display: none;
+	background: #4C4E7F;    /*Cor de fundo depois que passa o mouse em cima*/
+	z-index:99;     /*Este comando faz com que um item sobreponha o outro. No caso o submenu sobrepondo o resto do site*/
+}
+nav.primary-navigation ul li:hover > ul, nav.primary-navigation ul li ul:hover {
+	visibility: visible;
+	opacity: 1;
+	display: block;
+	min-width: 250px;                       
+	text-align: left;
+	padding-top: 20px;                      /*O quão longe fica o text dentro do submenu com relação ao menu principal*/
+	box-shadow: 0px 3px 5px -1px #ccc;         /*5px esfuma  -1px controla a borda da cor maior ou menor */
+}
+nav.primary-navigation ul li ul li {
+  clear: both;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 20px;
+	border-style: none;
+}
+nav.primary-navigation ul li ul li a:hover {
+	padding-left: 10px;
+	border-left: 2px solid #3ca0e7;       /*É a cor da borda left dentro do submenu*/
+	transition: all 0.3s ease;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #3ca0e7;
+}
+ul li ul li a {
+	transition: all 0.5s ease;
+}

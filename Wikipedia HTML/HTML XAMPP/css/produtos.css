@@ -1,0 +1,501 @@
+	/* PÁGINA CSS PARA PRODUTOS.HTML */
+	/* PÁGINA CSS PARA PRODUTOS.HTML */
+	/* PÁGINA CSS PARA PRODUTOS.HTML */
+	/* PÁGINA CSS PARA PRODUTOS.HTML */
+	
+		     /* Corpo Do Site personalização */
+	
+	body { background-color: #000000; 
+		 
+		 /* Execução De CSS no Texto Do Site */
+		 
+	 }
+	 
+	 
+	 		 /* Execução De CSS no Texto Do Site */
+		 
+		 .h3_222{
+		 color: #7FFFD4; /*utlizado para colorir algum texto ou palavra*/
+		 text-align: center; /*Utilizado para centralizar um texto. Comandos além desses são  right & left*/ 
+		 font-size: 80px;    /*Utilizado para aumentar a fonte do texto*/
+		 font-family: monospace;  /*Utilizado para trocar o estilo ou o modo como a palavra ou o texto é escrito*/
+		 font-weight: bold;
+		 position: relative;
+		 top: 10px;
+		 }
+
+	 
+	
+		.h4_333 {
+		 color: #7FFFD4;
+		 text-align: center;
+		 font-size: 25px;          /*Esta edição está vinculada ao <h2>*/
+		 font-family: monospace;
+		 font-weight: bold;
+		 position: relative;
+		 bottom: 20px;
+	}
+	
+	
+		/* MENU DO SITE */
+	
+	.menu {
+		list-style:none;
+		
+	}
+	
+	.menu li {
+		position:relative;
+		bottom:40px;
+		left: 55px;
+		border: 5px solid #ADFF2F;
+		float:left;
+		
+	}
+	
+	.menu li a{
+		color: #FF4000;
+		font-weight: bold;
+		font-family: monospace;
+		font-size: 18px;
+		padding: 30px 100px;
+		display:block;
+		text-decoration: none;
+		
+	}
+	
+	.menu li a:hover {
+		background-color: #ADFF2F;
+		color: #FF4000 ;
+	}
+	
+	
+	/* Instrução Dos Comandos Em Execução */
+	
+	
+	.photo_3 {
+		position:absolute;
+		left:;
+		top:;
+		
+	}
+	
+	
+
+				/* PHOTO_1 Para Venda */
+				/* PHOTO_1 Para Venda */
+				/* PHOTO_1 Para Venda */
+				/* PHOTO_1 Para Venda */
+				/* PHOTO_1 Para Venda */
+		
+				
+	.photo_1 {
+		position: absolute;
+		left:90px;
+		top:370px;
+		
+	}
+		
+	.var1_p { color: #000000;
+		text-align: left;
+		font-size: 18px;          /*Esta edição vai para todos os parágrafo*/
+		font-family: sans-serif;
+		font-weight:bold;
+		position: relative;
+		top:340px;
+		left:10px;
+
+	}
+	
+	.borda_1 {
+	border: 10px solid #585858;
+	width:300px;
+	height: 480px;
+	background: #FFFFFF;
+	margin-left: 50px;
+		}
+		
+	.comprar_1{
+	position: relative;
+	left: 120px;
+	bottom: 80px;
+	display: inline-block;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 1.1;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #FFFFFF;
+	font-size:12px;
+	background-color: #0000FF;
+	background-image: -webkit-linear-gradient(top, #0505ff 0%, #3e3eea 48%, #0000FF 49%, #0000FF 82%, #1c1cff 100%);
+	background-image: -moz-linear-gradient(top, #0505ff 0%, #3e3eea 48%, #0000FF 49%, #0000FF 82%, #1c1cff 100%);
+	background-image: -o-linear-gradient(top, #0505ff 0%, #3e3eea 48%, #0000FF 49%, #0000FF 82%, #1c1cff 100%);
+	background-image: linear-gradient(top, #0505ff 0%, #3e3eea 48%, #0000FF 49%, #0000FF 82%, #1c1cff 100%);
+	border-color: hsl(240, 32%, 50%);
+	-webkit-box-shadow: inset 0 0 1px 1px #7575ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0 0 1px 1px #7575ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 0 1px 1px #7575ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+	-webkit-text-shadow: 1px 1px 1px #009;
+	-moz-text-shadow: 1px 1px 1px #009;
+	-o-text-shadow: 1px 1px 1px #009;
+	text-shadow: 1px 1px 1px #009;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 100px;
+	padding-top: 19.200000000000003px;
+	padding-left:48px; 
+	padding-bottom:19.200000000000003px;
+	padding-right:	48px;
+	}
+	
+	
+
+.comprar_1 strong {
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+.comprar_1:hover {
+  color: #FFFFFF;
+  background-color: #0f0fff;
+  background-image: -webkit-linear-gradient(top, #1414ff 0%, #4c4ceb 48%, #0f0fff 49%, #0f0fff 82%, #2b2bff 100%);
+  background-image: -moz-linear-gradient(top, #1414ff 0%, #4c4ceb 48%, #0f0fff 49%, #0f0fff 82%, #2b2bff 100%);
+  background-image: -o-linear-gradient(top, #1414ff 0%, #4c4ceb 48%, #0f0fff 49%, #0f0fff 82%, #2b2bff 100%);
+  background-image: linear-gradient(top, #1414ff 0%, #4c4ceb 48%, #0f0fff 49%, #0f0fff 82%, #2b2bff 100%);
+  border-color: hsl(240, 34%, 53%);
+  -webkit-box-shadow: inset 0 0 1px 1px #7a7aff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 0 1px 1px #7a7aff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 1px 1px #7a7aff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -webkit-text-shadow: 1px 1px 1px #0000a8;
+  -moz-text-shadow: 1px 1px 1px #0000a8;
+  -o-text-shadow: 1px 1px 1px #0000a8;
+  text-shadow: 1px 1px 1px #0000a8;
+}
+
+.comprar_1:active {
+  color: #FFFFFF;
+  background-color: #0000f0;
+  background-image: -webkit-linear-gradient(top, #0000e6 0%, #0000FF 100%);
+  background-image: -moz-linear-gradient(top, #0000e6 0%, #0000FF 100%);
+  background-image: -o-linear-gradient(top, #0000e6 0%, #0000FF 100%);
+  background-image: linear-gradient(top, #0000e6 0%, #0000FF 100%);
+  padding: 20.200000000000003px 48px 18.200000000000003px 48px;
+}
+
+		
+		
+		
+		            /* PHOTO_2 Para Venda */	
+					/* PHOTO_2 Para Venda */	
+					/* PHOTO_2 Para Venda */
+					/* PHOTO_2 Para Venda */
+					/* PHOTO_2 Para Venda */
+					/* PHOTO_2 Para Venda */
+					/* PHOTO_2 Para Venda */
+					
+			
+
+
+
+		.photo_2 {
+		position:absolute;
+		left:20px;
+		bottom:150px;
+		
+	}
+			
+					
+		.var2_p { color: #000000;
+		text-align: left;
+		font-size: 18px;          /*Esta edição vai para todos os parágrafo*/
+		font-family: sans-serif;
+		font-weight:bold;
+		position: relative;
+		top:340px;
+		margin-left: 30px;
+
+	}
+	
+		.borda_2 {
+	border: 10px solid #585858;
+	width:300px;
+	height: 480px;
+	background: #FFFFFF;
+	position: absolute;
+	left: 610px;
+	bottom: -55px;
+		
+		}
+		
+		.comprar_111{
+	position: relative;
+	left: 520px;
+	bottom: 80px;
+	display: inline-block;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 1.1;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #FFFFFF;
+	font-size:12px;
+	background-color: #0000FF;
+	background-image: -webkit-linear-gradient(top, #0505ff 0%, #3e3eea 48%, #0000FF 49%, #0000FF 82%, #1c1cff 100%);
+	background-image: -moz-linear-gradient(top, #0505ff 0%, #3e3eea 48%, #0000FF 49%, #0000FF 82%, #1c1cff 100%);
+	background-image: -o-linear-gradient(top, #0505ff 0%, #3e3eea 48%, #0000FF 49%, #0000FF 82%, #1c1cff 100%);
+	background-image: linear-gradient(top, #0505ff 0%, #3e3eea 48%, #0000FF 49%, #0000FF 82%, #1c1cff 100%);
+	border-color: hsl(240, 32%, 50%);
+	-webkit-box-shadow: inset 0 0 1px 1px #7575ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0 0 1px 1px #7575ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 0 1px 1px #7575ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+	-webkit-text-shadow: 1px 1px 1px #009;
+	-moz-text-shadow: 1px 1px 1px #009;
+	-o-text-shadow: 1px 1px 1px #009;
+	text-shadow: 1px 1px 1px #009;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 100px;
+	padding-top: 19.200000000000003px;
+	padding-left:48px; 
+	padding-bottom:19.200000000000003px;
+	padding-right:	48px;
+	}
+	
+		.comprar_111 a {
+		color: #FFFFFF;              /*Colorir o nome do link caso queira transformar o código de botton para href*/
+		text-decoration: none;
+		
+	}
+
+		.comprar_111 strong {
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+		.comprar_111:hover {
+  color: #FFFFFF;
+  background-color: #0f0fff;
+  background-image: -webkit-linear-gradient(top, #1414ff 0%, #4c4ceb 48%, #0f0fff 49%, #0f0fff 82%, #2b2bff 100%);
+  background-image: -moz-linear-gradient(top, #1414ff 0%, #4c4ceb 48%, #0f0fff 49%, #0f0fff 82%, #2b2bff 100%);
+  background-image: -o-linear-gradient(top, #1414ff 0%, #4c4ceb 48%, #0f0fff 49%, #0f0fff 82%, #2b2bff 100%);
+  background-image: linear-gradient(top, #1414ff 0%, #4c4ceb 48%, #0f0fff 49%, #0f0fff 82%, #2b2bff 100%);
+  border-color: hsl(240, 34%, 53%);
+  -webkit-box-shadow: inset 0 0 1px 1px #7a7aff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 0 1px 1px #7a7aff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 1px 1px #7a7aff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -webkit-text-shadow: 1px 1px 1px #0000a8;
+  -moz-text-shadow: 1px 1px 1px #0000a8;
+  -o-text-shadow: 1px 1px 1px #0000a8;
+  text-shadow: 1px 1px 1px #0000a8;
+}
+
+.comprar_111:active {
+  color: #FFFFFF;
+  background-color: #0000f0;
+  background-image: -webkit-linear-gradient(top, #0000e6 0%, #0000FF 100%);
+  background-image: -moz-linear-gradient(top, #0000e6 0%, #0000FF 100%);
+  background-image: -o-linear-gradient(top, #0000e6 0%, #0000FF 100%);
+  background-image: linear-gradient(top, #0000e6 0%, #0000FF 100%);
+  padding: 20.200000000000003px 48px 18.200000000000003px 48px;
+}
+					
+					
+					
+					
+					/* PHOTO_3 Para Venda */
+					/* PHOTO_3 Para Venda */
+					/* PHOTO_3 Para Venda */
+					/* PHOTO_3 Para Venda */
+					/* PHOTO_3 Para Venda */
+					/* PHOTO_3 Para Venda */
+					
+					
+					
+					
+		
+		.photo_3 {
+		position:absolute;
+		left:50pxpx;
+		bottom:150px;
+		
+	}
+			
+					
+		.var3_p { color: #000000;
+		text-align: left;
+		font-size: 18px;          /*Esta edição vai para todos os parágrafo*/
+		font-family: sans-serif;
+		font-weight:bold;
+		position: relative;
+		top:340px;
+		margin-left: 50px;
+
+	}
+	
+		.borda_3 {
+	border: 10px solid #585858;
+	width:300px;
+	height: 480px;
+	background: #FFFFFF;
+	position: absolute;
+	left: 1150px;
+	bottom: -55px;
+		
+		}
+		
+		.comprar_3{
+	position: relative;
+	left: 900px;
+	bottom: 80px;
+	display: inline-block;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 1.1;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #FFFFFF;
+	font-size:12px;
+	background-color: #0000FF;
+	background-image: -webkit-linear-gradient(top, #0505ff 0%, #3e3eea 48%, #0000FF 49%, #0000FF 82%, #1c1cff 100%);
+	background-image: -moz-linear-gradient(top, #0505ff 0%, #3e3eea 48%, #0000FF 49%, #0000FF 82%, #1c1cff 100%);
+	background-image: -o-linear-gradient(top, #0505ff 0%, #3e3eea 48%, #0000FF 49%, #0000FF 82%, #1c1cff 100%);
+	background-image: linear-gradient(top, #0505ff 0%, #3e3eea 48%, #0000FF 49%, #0000FF 82%, #1c1cff 100%);
+	border-color: hsl(240, 32%, 50%);
+	-webkit-box-shadow: inset 0 0 1px 1px #7575ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0 0 1px 1px #7575ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 0 1px 1px #7575ff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+	-webkit-text-shadow: 1px 1px 1px #009;
+	-moz-text-shadow: 1px 1px 1px #009;
+	-o-text-shadow: 1px 1px 1px #009;
+	text-shadow: 1px 1px 1px #009;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 100px;
+	padding-top: 19.200000000000003px;
+	padding-left:48px; 
+	padding-bottom:19.200000000000003px;
+	padding-right:	48px;
+	}
+	
+		.comprar_3 a {
+		color: #FFFFFF;              /*Colorir o nome do link caso queira transformar o código de botton para href*/
+		text-decoration: none;
+		
+	}
+
+		.comprar_3 strong {
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+		.comprar_3:hover {
+  color: #FFFFFF;
+  background-color: #0f0fff;
+  background-image: -webkit-linear-gradient(top, #1414ff 0%, #4c4ceb 48%, #0f0fff 49%, #0f0fff 82%, #2b2bff 100%);
+  background-image: -moz-linear-gradient(top, #1414ff 0%, #4c4ceb 48%, #0f0fff 49%, #0f0fff 82%, #2b2bff 100%);
+  background-image: -o-linear-gradient(top, #1414ff 0%, #4c4ceb 48%, #0f0fff 49%, #0f0fff 82%, #2b2bff 100%);
+  background-image: linear-gradient(top, #1414ff 0%, #4c4ceb 48%, #0f0fff 49%, #0f0fff 82%, #2b2bff 100%);
+  border-color: hsl(240, 34%, 53%);
+  -webkit-box-shadow: inset 0 0 1px 1px #7a7aff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 0 1px 1px #7a7aff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 1px 1px #7a7aff, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -webkit-text-shadow: 1px 1px 1px #0000a8;
+  -moz-text-shadow: 1px 1px 1px #0000a8;
+  -o-text-shadow: 1px 1px 1px #0000a8;
+  text-shadow: 1px 1px 1px #0000a8;
+}
+
+.comprar_3:active {
+  color: #FFFFFF;
+  background-color: #0000f0;
+  background-image: -webkit-linear-gradient(top, #0000e6 0%, #0000FF 100%);
+  background-image: -moz-linear-gradient(top, #0000e6 0%, #0000FF 100%);
+  background-image: -o-linear-gradient(top, #0000e6 0%, #0000FF 100%);
+  background-image: linear-gradient(top, #0000e6 0%, #0000FF 100%);
+  padding: 20.200000000000003px 48px 18.200000000000003px 48px;
+}		
+					
+					
+						
+				  /* POSIÇÃO DE TODAS AS FOTOS EM GERAL*/
+	
+	
+		.position_geral {
+			position: relative;
+			left: 400px;
+			
+		}			
+					
+					
+				
+
+				 /* Pagination Numbers Down Display CSS  */
+							 
+		.pagination {
+  display: inline-block;
+}
+
+		.pagination a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  position: relative;
+  left: 100px;
+  top:150px;
+  border: 5px solid #2E2E2E;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #FF4000;}			
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+	
+	

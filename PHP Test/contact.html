@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>PHP Test</title>
+        <meta charset="utf-8">            <!-- Utilizado para utilizar a codifica��o utf-8 a fim de utilizar caracter especial-->  
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300&family=Source+Sans+Pro:wght@300;600&display=swap" rel="stylesheet"> 
+        <link href="css/contact.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+ 
+                        <!-- DIV for Menu -->
+
+<div class="var1_div_menu"></div>
+
+
+                        <!--Menu With Submenu for Site-->
+
+<div class="var5_menu_position">
+<nav role="navigation" class="primary-navigation">
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">Product</a>
+        <ul>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Illustration</a></li>
+            <li><a href="#">Iconography</a></li>
+        </ul>
+    </li>
+    <li><a href="phpjava.html">PHP/JAVA</a>
+        <ul>
+            <li><a href="submenu/php1.html">PHP1</a></li>
+            <li><a href="submenu/php2.html">PHP2</a></li>
+            <li><a href="#">PHP3</a></li>
+            <li><a href="#">PHP4</a></li>
+        </ul>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+</div>
+
+
+
+
+
+
+    <div class="form_p">
+        <p class="var2_p">Contato</p>
+        <form action="/action_page.php">
+            <label for="nome">Nome: &nbsp &nbsp &nbsp &nbsp</label> <br><br>
+            <input type="text" id="nome" name="nome" placeholder="Seu Nome Aqui..."> <br><br>
+
+            <label for="sobrenome">Sobrenome:</label> <br><br>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Seu Sobrenome Aqui..."> <br><br>
+    
+            <label for="dnascimento">Nascimento</label>  <br><br>
+            <input type="date" id="dnascimento" name="dnascimento"> <br><br><br>
+
+            <label for="myfile">Currículo:</label>
+            <input type="file" id="myfile" name="myfile"> <br><br>
+            
+            <textarea placeholder="Describe your Skill" class="vartextarea"></textarea>
+        </form>
+    </div>
+
+
+
+    <div class="audio_mv">
+        <audio controls>
+            <source src="../Wikipedia HTML/HTML XAMPP/audio/Oasis_Keep The Dream Alive.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+
+
+
+    </body>
+</html>
